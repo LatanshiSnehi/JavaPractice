@@ -30,6 +30,6 @@ public class Day9 {
     }
 
     public static void main(String[] args){
-        day9("banana");
+        day9("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
     }
 }
