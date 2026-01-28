@@ -1,5 +1,5 @@
 public class Practice {
-    public static String practice(String s){
+    public static int practice(String s){
       char[]c = s.toCharArray();
       int n = s.length();
       boolean seen = false;
@@ -21,7 +21,7 @@ public class Practice {
                 count++;
             }
         }
-         return c[i] + "=>" + count;
+         return s.charA + "=>" + count;
       }
      
     }
