@@ -13,7 +13,7 @@ public class IsAlphabets {
     }
 
     public static void main(String[] args){
-        System.out.println(isAlphabets("udshadjkhasj"));
+        System.out.println(isAlphabets("udshadjkhasj@#$"));
     }
     
 }

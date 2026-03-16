@@ -22,6 +22,4 @@ public class Day24 {
         int[] arr = {7,1,5,6,2};
         System.out.println(maxProfitcal(arr));
     }
-
-    
 }

@@ -1,27 +1,20 @@
 public class Employee {
+    public static String employee(String s){
+        int n = s.length();
+        char[] newc = new char[n];
+        char[] c = s.toCharArray();
+        int j =0;
+        for(int i = s.length()-1; i > 0; i--){
+            newc[j] = c[i];
+            j++;
+        }
 
-    String name;                  // instance
-    static String company = "Microsoft";  // static
-
-    // Constructor
-    public Employee(String name) {
-        // fill this
-
-        this.name = name;
+        String ss = new String(newc);
+        return ss;
     }
-
-    public void show() {
-        // print output here
-        System.out.println(name + " works at " + company);     
-    }
-
 
     public static void main(String[] args) {
-
-        Employee e1 = new Employee("Latanshi");
-        Employee e2 = new Employee("Rahul");
-        e1.show();
-        e2.show();
+        System.out.println(employee("abcdxz"));
     }
 }
 
